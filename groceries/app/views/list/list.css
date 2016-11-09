@@ -1,0 +1,7 @@
+ListView {
+    margin: 5;
+    opacity: 0;
+}
+Label {
+    margin-bottom:8px 0;
+}

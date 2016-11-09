@@ -4,3 +4,4 @@ packages/
 *.suo
 *.user
 node_modules/
+bower_components/

@@ -1,0 +1,20 @@
+{
+  "name": "phaser-game",
+  "description": "A game made with Phaser",
+  "main": "index.js",
+  "authors": [
+    "Duco Winterwerp"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}

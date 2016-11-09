@@ -1,0 +1,17 @@
+{
+  "name": "phaser-game",
+  "version": "0.0.1",
+  "description": "A game made with Phaser",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Duco Winterwerp",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}

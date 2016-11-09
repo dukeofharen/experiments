@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutContent" xml:space="preserve">
+    <value>&lt;p&gt;
+basichtmlpage.info is made from my own wish: I wanted to create a simple HTML frame with the choice of various popular JavaScript frameworks (like jQuery). In the mean time I will be making little changes to the site like small and handy tools for web developers.
+&lt;/p&gt;
+&lt;p&gt;
+The site is created with ASP.NET and is hosted on Windows Server 2012.
+&lt;/p&gt;
+&lt;p&gt;
+The site is made by &lt;a href="http://www.duco.cc"&gt;Duco Winterwerp&lt;/a&gt;. Do you have any suggestions? Send an e-mail to &lt;a href="mailto:basichtmlpage@winterwerp.it"&gt;basichtmlpage@winterwerp.it&lt;/a&gt;.
+&lt;/p&gt;</value>
+  </data>
+  <data name="aboutTitle" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="angularTooltip" xml:space="preserve">
+    <value>AngularJS is an open-source web application framework, maintained by Google and community, that assists with creating single-page applications, one-page web applications that only require HTML, CSS, and JavaScript on the client side. Its goal is to augment web applications with model–view–controller (MVC) capability, in an effort to make both development and testing easier.</value>
+  </data>
+  <data name="beautifyHTML" xml:space="preserve">
+    <value>Beautify HTML</value>
+  </data>
+  <data name="beautifyHTMLToolTip" xml:space="preserve">
+    <value>If this box is checked, the generated HTML will be ordered by layer. If this box isn't checked, the generated HTML will be one line.</value>
+  </data>
+  <data name="defaultExplanation" xml:space="preserve">
+    <value>Use this page to generate a simple HTML page. Use the options to finetune the result.</value>
+  </data>
+  <data name="dojoTooltip" xml:space="preserve">
+    <value>Dojo Toolkit (stylized as dōjō toolkit) is an open source modular JavaScript library (or more specifically JavaScript toolkit) designed to ease the rapid development of cross-platform, JavaScript/Ajax-based applications and web sites.</value>
+  </data>
+  <data name="encoding" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="encodingTooltip" xml:space="preserve">
+    <value>This is the way in which characters are shown. Click this link to learn more about character encoding.</value>
+  </data>
+  <data name="extJSTooltip" xml:space="preserve">
+    <value>Ext JS is a pure JavaScript application framework for building interactive web applications using techniques such as Ajax, DHTML and DOM scripting.</value>
+  </data>
+  <data name="generate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="generateHtmlPage" xml:space="preserve">
+    <value>Create a basic HTML page</value>
+  </data>
+  <data name="jqueryMobileTooltip" xml:space="preserve">
+    <value>jQuery Mobile is a touch-optimized web framework (additionally known as a JavaScript library or a mobile framework) currently being developed by the jQuery project team. The development focuses on creating a framework compatible with a wide variety of smartphones and tablet computers, made necessary by the growing but heterogeneous tablet and smartphone market.</value>
+  </data>
+  <data name="jqueryTooltip" xml:space="preserve">
+    <value>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.</value>
+  </data>
+  <data name="jqueryUITooltip" xml:space="preserve">
+    <value>jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery (a JavaScript library), Cascading Style Sheets, and HTML.</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="menuAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="menuHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="mooToolsTooltip" xml:space="preserve">
+    <value>MooTools (My Object-Oriented Tools) is a lightweight, object-oriented, JavaScript framework.</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="prototypeJsTooltip" xml:space="preserve">
+    <value>The Prototype JavaScript Framework is a JavaScript framework created by Sam Stephenson in February 2005 as part of the foundation for Ajax support in Ruby on Rails. It is implemented as a single file of JavaScript code, usually named prototype.js. Prototype is distributed standalone, but also as part of larger projects, such as Ruby on Rails, script.aculo.us and Rico.</value>
+  </data>
+  <data name="scriptaculousTooltip" xml:space="preserve">
+    <value>script.aculo.us is a JavaScript library built on the Prototype JavaScript Framework, providing dynamic visual effects and user interface elements via the Document Object Model (DOM).</value>
+  </data>
+  <data name="swfObjectTooltip" xml:space="preserve">
+    <value>SWFObject (originally FlashObject) is an open-source JavaScript library used to embed Adobe Flash content onto Web pages, which is supplied as one small JavaScript file. The library can also detect the installed Adobe Flash Player plug-in in all major web browsers, on all major operating systems (OS), and can redirect the visitor to another webpage or show alternate HTML content if the installed plug-in is not suitable.</value>
+  </data>
+  <data name="threeJsTooltip" xml:space="preserve">
+    <value>Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL.</value>
+  </data>
+  <data name="titleTagName" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="webFontLoaderTooltip" xml:space="preserve">
+    <value>Web Font Loader gives you added control when using linked fonts via @font-face. It provides a common interface to loading fonts regardless of the source, then adds a standard set of events you may use to control the loading experience. The Web Font Loader is able to load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-hosted web fonts. It is co-developed by Google and Typekit.</value>
+  </data>
+</root>

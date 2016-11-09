@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="ISO-8859-1" /> 
+<head>
+    <title>basichtmlpage.info - Generate a simple HTML page</title> 
+    <meta name="description" content="Generate a simple HTML page"> 
+    <meta name="keywords" content="">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/tooltipster/jquery.tooltipster.min.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-53254032-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <link rel="stylesheet" href="js/tooltipster/tooltipster.css">
+
+	<link rel="stylesheet" href="css/style.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<a id="logo" href="http://www.basichtmlpage.info/">&nbsp;</a>
+			<div id="menu">
+				<ul>
+					<li><a href="/"><%=Resources.Resources.menuHome%></a></li>
+					<li><a href="/About.aspx"><%=Resources.Resources.menuAbout%></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<form id="form" runat="server">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </form>
+		</div>
+		<div id="footer">
+            <div id="copyright">
+                &copy; <%=DateTime.Now.Year%> <a href="http://www.duco.cc">Duco.cc</a>
+            </div>
+            <div id="languages">
+                <ul class="languages" style="display:none;">
+                    <li><a href="/?lang=nl"><img src="img/flags/nl.png" alt="" /> Nederlands</a></li>
+                    <li><a href="/?lang=en"><img src="img/flags/gb.png" alt="" /> English</a></li>
+                </ul>
+                <a href="#" id="language-link"><%=Resources.Resources.language%></a>
+            </div>
+		</div>
+	</div>
+</body>
+</html>

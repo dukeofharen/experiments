@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frame" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;?xml-stylesheet type="text/xsl" href="[root-url]/sitemap.xsl"?&gt;
+&lt;!-- generated-on="[current-sitemap-datetime]" --&gt;
+&lt;!-- generator="Site On Wheels Sitemap Plugin" --&gt;
+&lt;!-- generator-url="http://duco.cc" --&gt;
+&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+http://www.google.com/schemas/sitemap-image/1.1 
+http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd"&gt;
+[urls]
+&lt;/urlset&gt;</value>
+  </data>
+  <data name="item" xml:space="preserve">
+    <value>&lt;url&gt;
+	&lt;loc&gt;[sitemap:url]&lt;/loc&gt;
+	&lt;lastmod&gt;[sitemap:lastmod]&lt;/lastmod&gt; 
+	&lt;changefreq&gt;[sitemap:freq]&lt;/changefreq&gt;
+	&lt;priority&gt;[sitemap:priority]&lt;/priority&gt;
+&lt;/url&gt;</value>
+  </data>
+  <data name="xsl" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xsl:stylesheet version="2.0" 
+	xmlns:html="http://www.w3.org/TR/REC-html40" 
+	xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9" 
+		xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;
+&lt;xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/&gt;
+&lt;xsl:template match="/"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+	&lt;title&gt;XML Sitemap Feed&lt;/title&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+	&lt;style type="text/css"&gt;body{font-family:"Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif;font-size:13px}#header,#footer{padding:2px;margin:10px;font-size:8pt;color:gray}a{color:black}td{font-size:11px}th{text-align:left;padding-right:30px;font-size:11px}tr.high{background-color:whitesmoke}#footer img{vertical-align:bottom}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;XML Sitemap Feed&lt;/h1&gt;
+	&lt;div id="header"&gt;
+		&lt;p&gt;This is an XML Sitemap to aid search engines like &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;, &lt;a href="http://www.bing.com/"&gt;Bing&lt;/a&gt;, &lt;a href="http://www.yahoo.com"&gt;Yahoo!&lt;/a&gt; and &lt;a href="http://www.ask.com"&gt;Ask&lt;/a&gt; indexing your site better. Read more about XML sitemaps on &lt;a href="http://sitemaps.org"&gt;Sitemaps.org&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div id="content"&gt;
+		&lt;table cellpadding="5"&gt;
+			&lt;tr class="high"&gt;
+				&lt;th&gt;#&lt;/th&gt;
+				&lt;th&gt;URL&lt;/th&gt;
+				&lt;th&gt;# Images&lt;/th&gt;
+				&lt;th&gt;Priority&lt;/th&gt;
+				&lt;th&gt;Change Frequency&lt;/th&gt;
+				&lt;th&gt;Last Changed&lt;/th&gt;
+			&lt;/tr&gt;
+&lt;xsl:variable name="lower" select="'abcdefghijklmnopqrstuvwxyz'"/&gt;
+&lt;xsl:variable name="upper" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/&gt;
+&lt;xsl:for-each select="sitemap:urlset/sitemap:url"&gt;
+			&lt;tr&gt;&lt;xsl:if test="position() mod 2 != 1"&gt;&lt;xsl:attribute  name="class"&gt;high&lt;/xsl:attribute&gt;&lt;/xsl:if&gt;
+				&lt;td&gt;&lt;xsl:value-of select="position()"/&gt;&lt;/td&gt;
+				&lt;td&gt;&lt;xsl:variable name="itemURL"&gt;&lt;xsl:value-of select="sitemap:loc"/&gt;&lt;/xsl:variable&gt;&lt;a href="{$itemURL}"&gt;&lt;xsl:value-of select="sitemap:loc"/&gt;&lt;/a&gt;&lt;/td&gt;
+				&lt;td&gt;&lt;xsl:value-of select="count(image:image)"/&gt;&lt;/td&gt;
+				&lt;td&gt;&lt;xsl:value-of select="concat(sitemap:priority*100,'%')"/&gt;&lt;/td&gt;
+				&lt;td&gt;&lt;xsl:value-of select="concat(translate(substring(sitemap:changefreq, 1, 1),concat($lower, $upper),concat($upper, $lower)),substring(sitemap:changefreq, 2))"/&gt;&lt;/td&gt;
+				&lt;td&gt;&lt;xsl:value-of select="concat(substring(sitemap:lastmod,0,11),concat(' ', substring(sitemap:lastmod,12,5)))"/&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+&lt;/xsl:for-each&gt;
+		&lt;/table&gt;
+	&lt;/div&gt;
+	&lt;div id="footer"&gt;
+		&lt;p&gt;Generated by Site On Wheels Sitemap Plugin&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</value>
+  </data>
+</root>

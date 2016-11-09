@@ -1,0 +1,19 @@
+﻿<a href="#/main">Back to main page</a>
+<h1>{{tutCtrl.tutorialDetail.title}}</h1>
+<a href="{{tutCtrl.tutorialDetail.url}}" target="_blank">Go to tutorial</a><br />
+<span class="description">
+	Added on {{tutCtrl.tutorialDetail.created | date}} by {{tutCtrl.tutorialDetail.user}}<br />
+	Rating: {{tutCtrl.tutorialDetail.avg_rating | number:2}} (out of 10) based on {{tutCtrl.tutorialDetail.num_votes}} votes<br />
+	Category: {{tutCtrl.tutorialDetail.category}}
+</span>
+<p>
+	{{tutCtrl.tutorialDetail.description}}
+</p>
+<h2>Comments ({{tutCtrl.tutorialDetail.comments.length}})</h2>
+<div ng-repeat="cmt in tutCtrl.tutorialDetail.comments">
+	<span class="description">
+		Added on {{cmt.created | date}} by {{cmt.username}}
+	</span><br />
+	{{cmt.content}}
+	<hr />
+</div>

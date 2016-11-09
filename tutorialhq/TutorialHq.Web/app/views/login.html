@@ -1,0 +1,8 @@
+﻿<h1>Log in</h1>
+<form name="loginForm" role="form" novalidate="novalidate" autocomplete="off">
+	<label for="username">Username</label>
+	<input type="text" name="username" class="form-control" ng-model="lgnCtrl.username" placeholder="Username" id="username" required autofocus />
+	<label for="password">Password</label>
+	<input type="password" name="password" class="form-control" ng-model="lgnCtrl.password" placeholder="Password" id="password" required />
+	<button class="btn btn-primary" style="margin-top:10px;" ng-click="lgnCtrl.login()">Log in</button>
+</form>

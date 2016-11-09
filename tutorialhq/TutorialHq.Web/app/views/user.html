@@ -1,0 +1,32 @@
+<div>
+  <h2>{{userCtrl.user.name}}{{userCtrl.user.location ? ", "+userCtrl.user.location : ""}}</h2>
+  {{error}}<br />
+  <img ng-src="{{userCtrl.user.avatar_url}}" style="width:80px;" title="{{userCtrl.user.name}}" /><br />
+  <p>
+  </p>
+  <p>
+    Order:
+    <select ng-model="userCtrl.repoSortOrder">
+      <option value="+name">Name</option>
+      <option value="-stargazers_count">Stars</option>
+      <option value="+language">Language</option>
+    </select>
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Stars</th>
+        <th>Language</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="repo in userCtrl.repos | orderBy:userCtrl.repoSortOrder">
+        <td><a href="#/repo/{{repo.full_name}}">{{repo.name}}</a></td>
+        <td>{{repo.stargazers_count | number}}</td>
+        <td>{{repo.language}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<a href="#main">Search again</a>

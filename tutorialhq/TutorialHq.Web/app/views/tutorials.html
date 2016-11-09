@@ -1,0 +1,15 @@
+﻿<h2>Latest tutorials</h2>
+<strong>Category</strong><br />
+<select ng-model="tutCtrl.category" ng-options="item.title for item in tutCtrl.categories" ng-change="tutCtrl.categorySelectChange()"></select>
+<div ng-repeat="tut in tutCtrl.tutorials" class="tutorial">
+	<h2><a href="#/tutorials/{{tut.id}}">{{tut.title}}</a></h2>
+	<span>
+		Added on {{tut.created | date}} by {{tut.user}}<br />
+		Rating: {{tut.avg_rating | number:2}} (out of 10) based on {{tut.num_votes}} votes<br />
+		Category: {{tut.category}}
+	</span>
+	<p>
+		{{tut.description}}
+	</p>
+	<hr />
+</div>

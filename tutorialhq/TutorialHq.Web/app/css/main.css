@@ -1,0 +1,12 @@
+.tutorial span, .description{
+	color:#a6a6a6;
+	font-style:italic;
+}
+
+.tostie-toast{
+	z-index:20000 !important;
+}
+
+.navbar{
+	color:#ffffff;
+}

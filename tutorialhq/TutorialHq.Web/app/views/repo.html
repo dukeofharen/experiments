@@ -1,0 +1,15 @@
+<h2>{{repoCtrl.repos.name}}</h2>
+{{repoCtrl.error}}
+<p>
+{{repoCtrl.repos.description}}
+</p>
+<a href="#main">Search again</a><br />
+<a href="{{repoCtrl.repos.html_url}}" target="_blank">Go to GitHub page</a>
+<div>
+	<h3>Contributors</h3>
+	<div ng-repeat="contr in repoCtrl.repos.contributors">
+		<a href="{{contr.html_url}}" target="_blank"><img ng-src="{{contr.avatar_url}}" title="{{contr.login}}" style="width:80px;" /><br />
+		<strong>{{contr.login}}</strong></a>
+		<hr />
+	</div>
+</div>

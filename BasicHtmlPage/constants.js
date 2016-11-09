@@ -1,0 +1,33 @@
+exports.title = "basichtmlpage.info - Generate a simple HTML page";
+exports.app_title = "basichtmlpage.info";
+exports.basichtmlpage = '<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>{TITLE}</title><meta http-equiv="Content-Type" content="text/html; charset={CHARSET}">{OTHER_HEAD}</head><body>{BODY}</body></html>';
+exports.scriptFrame = '<script type="text/javascript" src="{URL}"></script>';
+exports.cssFrame = '<link rel="stylesheet" href="{URL}" />';
+
+exports.jquery = ["2.1.1","1.11.1","2.1.0","2.0.3","2.0.2","2.0.1","2.0.0","1.11.0","1.10.2","1.10.1","1.10.0","1.9.1","1.9.0","1.8.3","1.8.2","1.8.1","1.8.0","1.7.2","1.7.1","1.7.0","1.6.4","1.6.3","1.6.2","1.6.1","1.6.0","1.5.2","1.5.1","1.5.0","1.4.4","1.4.3","1.4.2","1.4.1","1.4.0","1.3.2","1.3.1","1.3.0","1.2.6","1.2.3"];
+exports.jqueryMobile = ["1.4.3","1.4.2","1.4.1","1.4.0"];
+exports.jqueryUI = ["1.11.0","1.10.4","1.10.3","1.10.2","1.10.1","1.10.0","1.9.2","1.9.1","1.9.0","1.8.24","1.8.23","1.8.22","1.8.21","1.8.20","1.8.19","1.8.18","1.8.17","1.8.16","1.8.15","1.8.14","1.8.13","1.8.12","1.8.11","1.8.10","1.8.9","1.8.8","1.8.7","1.8.6","1.8.5","1.8.4","1.8.2","1.8.1","1.8.0","1.7.3","1.7.2","1.7.1","1.7.0","1.6.0","1.5.3","1.5.2"];
+exports.angular = ["1.2.21","1.2.20","1.2.19","1.2.18","1.2.17","1.2.16","1.2.15","1.2.14","1.2.13","1.2.12","1.2.11","1.2.10","1.2.9","1.2.8","1.2.7","1.2.6","1.2.5","1.2.4","1.2.3","1.2.2","1.2.1","1.2.0","1.0.8","1.0.7","1.0.6","1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
+exports.dojo = ["1.10.0","1.9.3","1.9.2","1.9.1","1.9.0","1.8.6","1.8.5","1.8.4","1.8.3","1.8.2","1.8.1","1.8.0","1.7.5","1.7.4","1.7.3","1.7.2","1.7.1","1.7.0","1.6.2","1.6.1","1.6.0","1.5.3","1.5.2","1.5.1","1.5.0","1.4.5","1.4.4","1.4.3","1.4.1","1.4.0","1.3.2","1.3.1","1.3.0","1.2.3","1.2.0","1.1.1"];
+exports.extjs = ["3.1.0", "3.0.0"];
+exports.mootools = ["1.5.0","1.4.5","1.4.4","1.4.3","1.4.2","1.4.1","1.4.0","1.3.2","1.3.1","1.3.0","1.2.5","1.2.4","1.2.3","1.2.2","1.2.1","1.1.2","1.1.1"];
+exports.prototypejs = ["1.7.2.0", "1.7.1.0", "1.7.0.0", "1.6.1.0", "1.6.0.3", "1.6.0.2"];
+exports.scriptaculous = ["1.9.0", "1.8.3", "1.8.2", "1.8.1"];
+exports.swfobject = ["2.2", "2.1"];
+exports.threejs = ["r67"];
+exports.webfontloader = ["1.5.3","1.5.2","1.5.0","1.4.10","1.4.8","1.4.7","1.4.6","1.4.2","1.3.0","1.1.2","1.1.1","1.1.0","1.0.31","1.0.30","1.0.29","1.0.28","1.0.27","1.0.26","1.0.25","1.0.24","1.0.23","1.0.22","1.0.21","1.0.19","1.0.18","1.0.17","1.0.16","1.0.15","1.0.14","1.0.13","1.0.12","1.0.11","1.0.10","1.0.9","1.0.6","1.0.5","1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
+
+exports.jqueryURL = "//ajax.googleapis.com/ajax/libs/jquery/{V}/jquery.min.js";
+exports.jqueryMobileJSURL = "//ajax.googleapis.com/ajax/libs/jquerymobile/{V}/jquery.mobile.min.js";
+exports.jqueryMobileCSSURL = "//ajax.googleapis.com/ajax/libs/jquerymobile/{V}/jquery.mobile.min.css";
+exports.jqueryUIJSURL = "//ajax.googleapis.com/ajax/libs/jqueryui/{V}/jquery-ui.min.js";
+exports.jqueryUICSSURL = "//ajax.googleapis.com/ajax/libs/jqueryui/{V}/themes/smoothness/jquery-ui.css";
+exports.angularURL = "//ajax.googleapis.com/ajax/libs/angularjs/{V}/angular.min.js";
+exports.dojoURL = "//ajax.googleapis.com/ajax/libs/dojo/{V}/dojo/dojo.js";
+exports.extjsURL = "//ajax.googleapis.com/ajax/libs/ext-core/{V}/ext-core.js";
+exports.mootoolsURL = "//ajax.googleapis.com/ajax/libs/mootools/{V}/mootools-yui-compressed.js";
+exports.prototypejsURL = "//ajax.googleapis.com/ajax/libs/prototype/{V}/prototype.js";
+exports.scriptaculousURL = "//ajax.googleapis.com/ajax/libs/scriptaculous/{V}/scriptaculous.js";
+exports.swfobjectURL = "//ajax.googleapis.com/ajax/libs/swfobject/{V}/swfobject.js";
+exports.threejsURL = "//ajax.googleapis.com/ajax/libs/threejs/{V}/three.min.js";
+exports.webfontloaderURL = "//ajax.googleapis.com/ajax/libs/webfont/{V}/webfont.js";

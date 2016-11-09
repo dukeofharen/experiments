@@ -1,0 +1,215 @@
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#generate').click(function(){
+		$('#form').submit();
+		return false;
+	});
+	$('#form').submit(function(){
+		$.post('/api', $(this).serialize(), function(data){
+			$('#BhtmlOutput').val(data.html);
+		});
+		return false;
+	});
+});
+</script>
+	<div>
+		<form method="post" id="form">
+			<h1>Create a basic HTML page</h1>
+			<p>
+				 Use this page to generate a simple HTML page. Use the options to finetune the result.
+			</p>
+			<div id="options-pane">
+				<p>
+					<table border="0" class="table">
+					<tr>
+						<td>
+							Title
+						</td>
+						<td>
+							<input name="title" type="text" id="title"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="This is the way in which characters are shown. Click this link to learn more about character encoding." class="tooltip" href="http://www.w3schools.com/tags/ref_charactersets.asp" target="_blank">Encoding</a>
+						</td>
+						<td>
+							<input name="charenc" type="text" id="charenc"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML." class="tooltip" href="https://jquery.org/" target="_blank">jQuery</a>
+						</td>
+						<td>
+							<select name="jquery" id="jquery">
+								<option value=""></option>
+								{{#each jquery}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr id="mobilerow" style="display:none;">
+						<td>
+							<a title="jQuery Mobile is a touch-optimized web framework (additionally known as a JavaScript library or a mobile framework) currently being developed by the jQuery project team. The development focuses on creating a framework compatible with a wide variety of smartphones and tablet computers, made necessary by the growing but heterogeneous tablet and smartphone market." class="tooltip" href="http://jquerymobile.com/" target="_blank">jQuery Mobile</a>
+						</td>
+						<td>
+							<select name="jqueryMobile" id="jqueryMobile">
+								<option value=""></option>
+								{{#each jqueryMobile}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr id="uirow" style="display:none;">
+						<td>
+							<a title="jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery (a JavaScript library), Cascading Style Sheets, and HTML." class="tooltip" href="http://jqueryui.com/" target="_blank">jQuery UI</a>
+						</td>
+						<td>
+							<select name="jqueryUI" id="jqueryUI">
+								<option value=""></option>
+								{{#each jqueryUI}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="AngularJS is an open-source web application framework, maintained by Google and community, that assists with creating single-page applications, one-page web applications that only require HTML, CSS, and JavaScript on the client side. Its goal is to augment web applications with model–view–controller (MVC) capability, in an effort to make both development and testing easier." class="tooltip" href="https://angularjs.org/" target="_blank">AngularJS</a>
+						</td>
+						<td>
+							<select name="angular" id="angular">
+								<option value=""></option>
+								{{#each angular}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="Dojo Toolkit (stylized as dōjō toolkit) is an open source modular JavaScript library (or more specifically JavaScript toolkit) designed to ease the rapid development of cross-platform, JavaScript/Ajax-based applications and web sites." class="tooltip" href="http://dojotoolkit.org/" target="_blank">Dojo</a>
+						</td>
+						<td>
+							<select name="dojo" id="dojo">
+								<option value=""></option>
+								{{#each dojo}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="Ext JS is a pure JavaScript application framework for building interactive web applications using techniques such as Ajax, DHTML and DOM scripting." class="tooltip" href="http://www.sencha.com/products/extjs/" target="_blank">Ext JS</a>
+						</td>
+						<td>
+							<select name="extjs" id="extjs">
+								<option value=""></option>
+								{{#each extjs}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="MooTools (My Object-Oriented Tools) is a lightweight, object-oriented, JavaScript framework." class="tooltip" href="http://mootools.net/" target="_blank">MooTools</a>
+						</td>
+						<td>
+							<select name="mootools" id="mootools">
+								<option value=""></option>
+								{{#each mootools}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="The Prototype JavaScript Framework is a JavaScript framework created by Sam Stephenson in February 2005 as part of the foundation for Ajax support in Ruby on Rails. It is implemented as a single file of JavaScript code, usually named prototype.js. Prototype is distributed standalone, but also as part of larger projects, such as Ruby on Rails, script.aculo.us and Rico." class="tooltip" href="http://prototypejs.org/" target="_blank">Prototype</a>
+						</td>
+						<td>
+							<select name="prototypejs" id="prototypejs">
+								<option value=""></option>
+								{{#each prototypejs}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr style="display:none;" id="scriptaculousrow">
+						<td>
+							<a title="script.aculo.us is a JavaScript library built on the Prototype JavaScript Framework, providing dynamic visual effects and user interface elements via the Document Object Model (DOM)." class="tooltip" href="http://script.aculo.us/" target="_blank">script.aculo.us</a>
+						</td>
+						<td>
+							<select name="scriptaculous" id="scriptaculous">
+								<option value=""></option>
+								{{#each scriptaculous}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="SWFObject (originally FlashObject) is an open-source JavaScript library used to embed Adobe Flash content onto Web pages, which is supplied as one small JavaScript file. The library can also detect the installed Adobe Flash Player plug-in in all major web browsers, on all major operating systems (OS), and can redirect the visitor to another webpage or show alternate HTML content if the installed plug-in is not suitable." class="tooltip" href="https://code.google.com/p/swfobject/" target="_blank">SWFObject</a>
+						</td>
+						<td>
+							<select name="swfobject" id="swfobject">
+								<option value=""></option>
+								{{#each swfobject}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL." class="tooltip" href="http://threejs.org/" target="_blank">Three.js</a>
+						</td>
+						<td>
+							<select name="threejs" id="threejs">
+								<option value=""></option>
+								{{#each threejs}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="Web Font Loader gives you added control when using linked fonts via @font-face. It provides a common interface to loading fonts regardless of the source, then adds a standard set of events you may use to control the loading experience. The Web Font Loader is able to load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-hosted web fonts. It is co-developed by Google and Typekit." class="tooltip" href="https://developers.google.com/fonts/docs/webfont_loader" target="_blank">Web Font Loader</a>
+						</td>
+						<td>
+							<select name="webfontloader" id="webfontloader">
+								<option value=""></option>
+								{{#each webfontloader}}
+									<option value="{{this}}">Version {{this}}</option>
+								{{/each}}
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a title="If this box is checked, the generated HTML will be ordered by layer. If this box isn&#39;t checked, the generated HTML will be one line." class="tooltip" onclick="return false;" href="#">Beautify HTML</a>
+						</td>
+						<td>
+							<input id="htmltidy" type="checkbox" name="htmltidy" checked="checked" value="1"/>
+						</td>
+					</tr>
+					</table>
+				</p>
+			</div>
+			<a href="#" id="options" class="button">Options</a>
+			<a href="#" id="generate" class="button">Generate</a>
+			<div id="output">
+				<textarea name="BhtmlOutput" id="BhtmlOutput"></textarea>
+			</div>
+			{{{adsense}}}
+		</form>
+	</div>
+</div>

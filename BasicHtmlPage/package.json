@@ -1,0 +1,10 @@
+{
+  "name": "basichtmlpage",
+  "description": "BasicHtmlPage.info",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.7.0",
+    "express": "3.x",
+    "hbs": "*"
+  }
+}

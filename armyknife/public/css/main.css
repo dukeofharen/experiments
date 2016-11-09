@@ -1,0 +1,13 @@
+#cmdline{
+	width:100%;
+	min-height:300px;
+}
+
+#result{
+	display:none;
+	margin-top:10px;
+}
+
+.jumbotron{
+	display:none;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "qrjs",
+  "description": "qr.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "hbs": "*",
+    "mongoose":"*",
+    "qr-image":"*",
+    "request":"*"
+  }
+}
